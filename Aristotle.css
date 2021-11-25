@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 500px;
+    margin: 5% 15%;
+}
+#heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 5%;
+}    
+#heading h2{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5px;    
+}
+#heading h3{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.box {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    margin-bottom: 20px;
+}
+.image {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    margin-bottom: 20px;
+}
+img {
+    padding: 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.image p {
+    background-color: lightgrey;
+    margin: 0px 5px;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 15px;
+}
+.footer {
+    text-align: center;
+}
