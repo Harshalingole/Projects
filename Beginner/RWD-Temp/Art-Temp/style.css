@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+nav {
+    background-color: white;
+    padding: 25px;
+}
+li {
+    background: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-weight: 100;
+    float: left;
+}
+li:hover {
+    background-color: #F1F1F1;
+}
+
+#galary {
+    margin: 50px 0px 0px  0px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: lightgray;
+}
+.g1, .g2 { 
+    margin: 0; 
+    padding: 0;
+    max-width: 50%;
+}
+.imgs {
+    max-width: 100%;
+    margin: 0; 
+}
+.about  {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    background-color: #F1F1F1;
+    /* justify-content: center; */
+}
+.contact {
+    width: 60%;
+    margin-top: 45px;
+    align-self: center;
+}
+.info {
+    width: 60%;
+    margin: auto;
+    align-self: center;
+}
+.info h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    text-align: center;
+    padding: 45px;
+}
+.info img {
+    display: block;
+    margin: 0px auto 40px auto;
+    width: 50%;
+    height: auto;
+}
+.info p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.4;
+    width: fit-content;
+    font-weight: 100; 
+}
+.contact h2 {
+    color: #ff7984;
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    margin: 15px;
+}
+form h3 {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+input[type="text"],input[type="email"],textarea  {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+input[type="button"] {
+    color: white ;
+    font-size: inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(39, 39, 39, 0.733);
+}
+input[type="button"]:hover {
+    background-color: #F1F1F1;
+    color: black;
+}
+.about  h4 {
+    color: slategray;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 25px;
+}
