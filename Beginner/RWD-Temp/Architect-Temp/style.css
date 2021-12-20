@@ -18,15 +18,19 @@ body {
     top: 0;
     z-index: 1;
 }
-#container>nav>li {
+#container>nav>a {
     display: inline-block;
+    color: black;
     list-style-type: none;
     text-decoration: none;
     text-align: center;
     padding: 10px;
     font-size: 1.2em;
 }
-#container>nav>li:hover {
+/* #container>nav>li>a {
+    
+} */
+#container>nav>a:hover {
     background-color: lightgray;
 }
 /* hero image of page styling  */
