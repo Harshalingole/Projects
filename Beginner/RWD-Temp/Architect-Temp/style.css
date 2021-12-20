@@ -1,0 +1,185 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Making Container grid to use grid layout */
+#container {
+    display: grid;
+    /* grid-template-columns: 100%; */
+    grid-template-columns: repeat(auto-fit, 1fr);
+}
+/* Navbar styling  */
+#container>nav {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 2px solid #dbdada;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#container>nav>li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+#container>nav>li:hover {
+    background-color: lightgray;
+}
+/* hero image of page styling  */
+#heroimg {
+    width: 100%;
+    height: 37.5em;
+    background-image: url(/img/architect.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroimg>h2 {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* margin: 0; */
+    text-align: center;
+    line-height: 37.em;
+    color: black;
+    font-size: 2.5em;
+}
+/* Project Section of page styling  */
+#project {
+    margin: 50px 25px 30px 25px;
+    color: rgb(44, 43, 43) ;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(110, 109, 109);
+    padding-bottom: 10px;
+}
+
+#gallery {       /* gallery styling */
+    margin: 0px 25px 30px 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 15px;
+}
+.images {
+    position: relative;
+}   
+.images>img {
+    width: 100%;
+}
+.images>h3 {
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    width: auto;
+    color: white;
+    background-color: black;
+    font-size: 1em;
+}
+/* About section styling */
+#about {
+    margin: 0px 25px 30px 25px;
+}
+#about h3{
+    color: rgb(44, 43, 43);
+    font-size: 2em;
+    border-bottom: 1px solid rgb(110, 109, 109);
+    padding-bottom: 10px;
+}
+#about p {
+    font-size: 1.1em;
+}
+/* About section---- founding team members */
+#team {
+    margin: 0px 25px 30px 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 15px;
+}
+.frame {
+    /* margin: 0px 25px 30px 25px; */
+    background-color: white;
+}
+.frame img {
+    width: 100%;
+}
+.frame h3 {
+    text-align: left;
+    color: rgb(43, 42, 42);
+    font-size: 1.5em;
+    margin: 0;
+    margin: 10px 0px 10px 0px;
+}
+.frame h6 {
+    font-size: 0.9375em;
+    color: rgb(43, 42, 42);
+    margin: 15px 0px 15px 0px;
+}
+.frame p {
+    font-size: 0.9375em;
+    color: rgb(43, 42, 42);
+    margin: 15px 0px 15px 0px;
+}
+.frame input[type="button"] {
+    color: rgb(41, 40, 40);
+    font-size: 0.9375em;
+    text-align: center;
+    font-size: 0.9375em;
+    background-color: #cccccc;
+    cursor: pointer;
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+}
+.frame input[type="button"]:hover {
+    background-color: lightgray ;
+}
+/* Contact page section styling */
+#contact {
+    margin: 50px 25px 30px 25px;
+    color: rgb(44, 43, 43) ;
+    font-size: 2em;
+    border-bottom: 1px solid rgb(110, 109, 109);
+    padding-bottom: 10px;
+}
+form {
+    margin: 0px 25px 30px 25px; 
+    box-sizing: border-box;
+}
+form p {
+    font-size: 1.1em;
+}
+form input[type="text"]{
+    display: block;
+    width: 98%;
+    padding: 12px;
+    margin-top: 5px;
+}
+form input[type="button"] {
+    display: block;
+    margin: 25px 0px 25px 5px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+form input[type="button"]:hover {
+    background-color: lightgray;
+    color: black;
+}
+#map {
+    margin: 0px 25px 10px 25px;
+}
+#map img {
+    width: 99%;
+}
+footer {
+    color: slategray;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    font-size: 1.3em;
+}
+
