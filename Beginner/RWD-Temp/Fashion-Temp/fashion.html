@@ -10,43 +10,165 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav>
-       <span class="menu-icon"  onclick="openNav()">&#9776; </span>
-       <div id="myNav" class="overlay">
-        <!-- <a href="javascript:void(0)" class="closebtn" id="clsbtn" onclick="closeNav()">&times;</a> -->
-           <div class="overlay-content">
-                <div id="profile">
-                    <img src="/img/avatar2.png" alt="avatar2">
-                    <div class="text"> 
-                        <p>Welcome,<strong>Mike</strong></p>
-                        <a href="#"><i class="fa fa-envelope"></i></a>
-                        <a href="#"><i class="fa fa-trash"></i></a>
-                        <a href="#"><i class="fa fa-globe"></i></a>
+    <div id="container">
+        <nav>
+            <span class="menu-icon"  onclick="openNav()">&#9776; </span>
+            <div id="myNav" class="overlay">
+             <!-- <a href="javascript:void(0)" class="closebtn" id="clsbtn" onclick="closeNav()">&times;</a> -->
+                <div class="overlay-content">
+                     <div id="profile">
+                         <img src="/img/avatar2.png" alt="avatar2">
+                         <div class="text"> 
+                             <p>Welcome,<strong>Mike</strong></p>
+                             <a href="#"><i class="fa fa-envelope"></i></a>
+                             <a href="#"><i class="fa fa-trash"></i></a>
+                             <a href="#"><i class="fa fa-globe"></i></a>
+                         </div>
+                     </div>
+                     <h2>Dashboard</h2>
+                     <div class="dashboard">
+                         <a href="javascript:void(0)" class="closebtn" id="clsbtn" onclick="closeNav()">&times;&nbsp;Close</a>
+                         <a href="#"><i class="fa fa-envelope"></i>&nbsp;About</a>
+                         <a href="#"><i class="fa fa-envelope"></i>&nbsp;Services</a>
+                         <a href="#"><i class="fa fa-envelope"></i>&nbsp;Clients</a>
+                         <a href="#"><i class="fa fa-envelope"></i>&nbsp;Contacts</a>
+                     </div>
+                </div>
+            </div> 
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-snapchat"></i></a>
+            <a style="float: right;" href="#"><i class="fa fa-search"></i></a>
+         </nav>
+         <script>
+            function openNav() {
+                document.getElementById("myNav").style.width="40%";
+            }
+            function closeNav() {
+                document.getElementById("myNav").style.width="0%";
+            }
+         </script>
+         <header>
+             <h1>Harshal Ingole</h1>
+             <h6>Welcome to the blog of <span>Harshal world</span></h6>
+         </header>
+         <div class="hero">
+            <h3>Jane's</h3>
+            <h1>Fashion Blog</h1>
+            <button>Subscribe</button>
+         </div>
+         <!-- main sectin html  -->
+         <main id="child-1st">
+              <div class="sec">
+                 <div class="sec1">  <!-- Heading 1 and Img 1 -->
+                    <h1>Title Heading</h1>
+                    <h6><strong>Title Description</strong> ,May 2, 2016<h6>
+                    <img src="/img/girl_hat.jpg" alt="girl_hat">
+                    <p><strong>More Hats!</strong>I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+   
+                       Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                   </p>
+                   <div class="like-reply">
+                       <div  class="like">Like</div>
+                       <div  class="replies" ><a href="javascript:void(0)" ondblclick="closeReplies()" onclick="openReplies()">Replies<span>1</span></a> </div>
+                   </div>
+                   <div id="reply-div">
+                       <img src="/img/avatar_smoke.jpg" alt="">
+                       <div>
+                           <h3>George May 3, 2015, 6:32 PM</h3>
+                           <h5>Great blog post! Following</h5>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="sec1">  <!-- Heading 2 and Img 2 -->
+                    <h1>Title Heading</h1>
+                    <h6><strong>Title Description</strong> ,May 2, 2016<h6>
+                    <img src="/img/man_hat.jpg" alt="girl_hat">
+                    <p><strong>More Hats!</strong>I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+   
+                       Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                   </p>
+                   <div class="like-reply">
+                       <div  class="like">Like</div>
+                       <div  class="replies" ><a href="javascript:void(0)" ondblclick="closeReplies()" onclick="openReplies()">Replies<span>1</span></a> </div>
+                   </div>
+                   <div id="reply-div">
+                       <img src="/img/avatar_smoke.jpg" alt="">
+                       <div>
+                           <h3>George May 3, 2015, 6:32 PM</h3>
+                           <h5>Great blog post! Following</h5>
+                       </div>
+                   </div>
+                 </div>
+                 <div class="sec1">  <!-- Heading 3 and Img 3 -->
+                    <h1>Title Heading</h1>
+                    <h6><strong>Title Description</strong> ,May 2, 2016<h6>
+                    <img src="/img/runway.jpg" alt="girl_hat">
+                    <p><strong>More Hats!</strong>I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+   
+                       Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                   </p>
+                   <div class="like-reply">
+                       <div  class="like">Like</div>
+                       <div  class="replies" ><a href="javascript:void(0)" ondblclick="closeReplies()" onclick="openReplies()">Replies<span>1</span></a> </div>
+                   </div>
+                   <div id="reply-div">
+                       <img src="/img/avatar_smoke.jpg" alt="">
+                       <div>
+                           <h3>George May 3, 2015, 6:32 PM</h3>
+                           <h5>Great blog post! Following</h5>
+                       </div>
+                   </div>
+                 </div>
+                </div>   
+
+             <script>
+                function openReplies() {
+                   document.getElementById("reply-div").style.display="block";
+                }
+                function closeReplies() {
+                  document.getElementById("reply-div").style.display="none";
+                }
+            </script>
+            
+            <div class="sec" >
+                
+                <div class="sec2">
+                    <div>
+                        <img src="/img/avatar_girl2 (1).jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>My Name</h2>
+                        <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
                     </div>
                 </div>
-                <h2>Dashboard</h2>
-                <div class="dashboard">
-        
-                    <a href="javascript:void(0)" class="closebtn" id="clsbtn" onclick="closeNav()">&times;&nbsp;Close</a>
-                    <a href="#"><i class="fa fa-envelope"></i>&nbsp;About</a>
-                    <a href="#"><i class="fa fa-envelope"></i>&nbsp;Services</a>
-                    <a href="#"><i class="fa fa-envelope"></i>&nbsp;Clients</a>
-                    <a href="#"><i class="fa fa-envelope"></i>&nbsp;Contacts</a>
+                <br>
+                <h3  class="sec2-h3">Popular Post</h3> 
+                <div class="img-text">
+                    <img src="/img/avatar_smoke.jpg" alt="">
+                    <span><p>Denim</p> <p>Let hangout</p></span>
+                </div> 
+                <div class="img-text">
+                    <img src="/img/avatar_smoke.jpg" alt="">
+                    <span><p>Denim</p> <p>Let hangout</p></span>
+                </div> 
+                <div class="img-text">
+                    <img src="/img/avatar_smoke.jpg" alt="">
+                    <span><p>Denim</p> <p>Let hangout</p></span>
+                </div> 
+                <div class="img-text">
+                    <img src="/img/avatar_smoke.jpg" alt="">
+                    <span><p>Denim</p> <p>Let hangout</p></span>
+                </div> 
+                <br>
+                <h3  class="sec2-h3">Advertisement</h3> 
+                <div class="adv">
+                    <p>your add here</p>
                 </div>
-           </div>
-       </div> 
-       <a href="#"><i class="fa fa-facebook"></i></a>
-       <a href="#"><i class="fa fa-instagram"></i></a>
-       <a href="#"><i class="fa fa-snapchat"></i></a>
-       <a style="float: right;" href="#"><i class="fa fa-search"></i></a>
-    </nav>
-    <script>
-       function openNav() {
-           document.getElementById("myNav").style.width="40%";
-       }
-       function closeNav() {
-           document.getElementById("myNav").style.width="0%";
-       }
-    </script>
+            </div>
+
+         </main>
+    </div>
+    
 </body>
 </html>
