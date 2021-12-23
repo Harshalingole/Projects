@@ -182,7 +182,7 @@ header h6 span {
 #child-1st {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 30%;
     grid-gap: 30px;
     margin: 25px;
     /* overflow: hidden; */
@@ -200,7 +200,7 @@ header h6 span {
     align-items: center;
     padding: 12px 24px;
     background-color: white;
-    
+    margin-bottom: 20px;  
 }
 
 .sec1 h1,.sec1 h6{  /* section 1 css h1 & h6 */
@@ -255,7 +255,7 @@ header h6 span {
     margin-top: 20px;
     margin-right: 30px;
 }  
-.sec2, .sec2-h3,.img-text, .adv {
+.sec2, .sec2-h3,.img-text, .adv , #tag, .inspi{
     margin: 0px 10px 0px 10px;
 }
 
@@ -286,20 +286,22 @@ header h6 span {
     height: 82px;
     border-bottom: 1px solid #cccccc;
 }
+.img-text:hover {
+    background-color: #cccccc;
+}
 .img-text img {
     width: 55px;
     height: 55px;
     float: left;
     margin-right: 15px;
 }
-.img-text span {
-}
+
 .img-text p {
     margin: 5px;
 }
-.adv {
+.adv, #tag, .inspi{
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     
 }
 .adv>p {
@@ -308,5 +310,47 @@ header h6 span {
     padding: 70px;
     background-color: #cccccc;
 }
-
+#tag-1 {
+    background-color: black;
+    color: white;
+    padding: 1.5px;
+    margin: 5px;
+}
+#tag>.tags  {
+    background-color: #cccccc;
+    padding: 1.5px;
+    margin: 5px;
+}
+.insp {
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.insp img  {
+    width: 100%;
+}
+footer {
+    background-color: #616161;
+    padding: 30px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer>a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer>div {
+    text-align: center;
+    margin: 20px;
+    font-size: 1em;
+    background-color: rgb(180, 180, 180);
+}
 
